@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "active":  true,
+        "title": "TV LG 32'",
+        "price": 3000,
+        "categoria": "TECNOLOGIA",
+        "stock": 2
+    },
+    {
+        "id": 2,
+        "active":  false,
+        "title": "BAGGY JEANS",
+        "price": 100,
+        "categoria": "INDUMENTARIA",
+        "stock": 0
+    },
+    {
+        "id": 3,
+        "active": true,
+        "title": "PELUCHE PEPPA PIG",
+        "price": 50,
+        "categoria": "JUGUETERIA",
+        "stock": 9
+    },
+    {
+        "id": 4,
+        "active": true,
+        "title": "iphone 16",
+        "price": 30000,
+        "categoria": "TECNOLOGIA",
+        "stock": 47
+    }
+]
