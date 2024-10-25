@@ -16,7 +16,7 @@ userRouter.get('/', async (req, res)=> {
             users: users
         })
     .build() 
-    res.json (response)
+    res.json(response)
     }
     catch(error){
         const response = new  ResponseBuilder()
@@ -25,9 +25,9 @@ userRouter.get('/', async (req, res)=> {
         .setMessage('Internal server error')
         .setPayload({
             detail: error.message
-            })
-            .build()
-            res.status(500).json(response)
+        })
+        .build()
+        res.status(500).json(response)
     }
 })
 
